@@ -1335,7 +1335,7 @@ class RSCPGuiFrame(MainFrame, RSCPGuiMain):
             self.gPM.SetCellValue(14, curcol, repr(d['PM_ERROR_CODE']))
             self.gPM.SetCellValue(15, curcol, repr(d['PM_TYPE']))
             self.gPM.SetCellValue(16, curcol, repr(d['PM_DEVICE_ID']))
-            self.gPM.SetCellValue(17, curcol, repr(d['PM_IS_CAN_SILENCE']))
+            #self.gPM.SetCellValue(17, curcol, repr(d['PM_IS_CAN_SILENCE']))
             self.gPM.SetCellValue(28, curcol, repr(d['PM_DEVICE_STATE']['PM_DEVICE_CONNECTED']))
             self.gPM.SetCellValue(29, curcol, repr(d['PM_DEVICE_STATE']['PM_DEVICE_WORKING']))
             self.gPM.SetCellValue(30, curcol, repr(d['PM_DEVICE_STATE']['PM_DEVICE_IN_SERVICE']))
